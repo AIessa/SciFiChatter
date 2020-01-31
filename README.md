@@ -1,6 +1,4 @@
 # SciFiChatter
 Sci-fi themed dialogue generator based on early NASA mission transcripts
 
-IN PROGRESS
-
-Generate random trial output from generate_chatter.py
+IN PROGRESS, code will be uploaded soon :)
