@@ -1,0 +1,179 @@
+{
+    "name": "ma6",
+    "featured": true,
+    "incomplete": false,
+    "subdomains": ["mercury6", "ma6"],
+    "copy": {
+        "title": "Mercury 6",
+        "upper_title": "Mercury",
+        "lower_title": "6",
+        "description": "The 1962 Mercury mission that made pilot John Glenn the first American to reach Earth orbit, with three orbits before re-entry.",
+        "summary": "First American to reach earth orbit",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "cleaners": [
+            "David Brownlee",
+            "Peter Dufault",
+            "Russ Garrett",
+            "Jeff Hlywa",
+            "Benjamin Levine",
+            "Dananjaya Ramanayke",
+            "Trent VanDenBerghe"
+        ],
+        "about": "The second important moment in America's entry to the space race, Mercury-Atlas 6 saw pilot John Glenn perform three orbits of the Earth in a five hour flight, becoming the third man in orbit after Russians Yuri Gagarin and Gherman Titov the previous year.\n\nThis site allows you to explore transcripts of radio communications between John Glenn aboard Friendship 7 and the NASA personnel at monitoring stations around the world, along with photographs taken both from the ground and by Glenn in space.",
+        "image_attributions": [
+        ],
+        "transcript_attributions": [
+            { "url": "http://www.jsc.nasa.gov/history/mission_trans/mercury.htm", "title": "Mercury-Atlas 6 Results of the First United States Orbital Space Flight" }
+        ],
+        "call_signs": "The Mercury capsule's callsign through the mission is Friendship 7; the CAPCOMs' call signs are location-dependent; for instance, &ldquo;Muchea Cap Com&rdquo; is Gordon Cooper."
+    },
+    "main_transcript": "ma6/TEC",
+    "media_transcript": "ma6/MEDIA",
+    "transcript_pages": {
+        "ma6/TEC": 202
+    },
+    "utc_launch_time": -248087541,
+    "acts" : [
+        {
+            "title": "Launch",
+            "description": "After a over two hours of last-minute holds, Atlas LV-3B launched Friendship 7 and its pilot John Glenn towards Earth orbit.",
+            "range": ["-00:00:00:20", "00:00:05:04"],
+            "homepage": "phase1.jpg",
+            "banner": "act1.jpg",
+            "banner_colour": "#5d86b2"
+        },
+        {
+            "title": "1st Orbit",
+            "description": "Despite a problem during separation, the first orbit was smooth, although the automatic stabilisation system started exhibiting problems that meant Glenn had to take manual control to maintain attitude (orientation of the capsule).",
+            "range": ["00:00:05:04", "00:01:32:50"],
+            "homepage": "phase2.jpg",
+            "banner": "act2.jpg"
+        },
+        {
+            "title": "2nd Orbit",
+            "description": "During the second orbit, a flight controller noticed a sensor reading indicating that the heat shield was no longer locked in place, meaning that it was only being held against the capsule by the straps of the retro package, which would burn up during reentry.",
+            "range": ["00:01:32:50", "00:03:07:03"],
+            "homepage": "phase3.jpg",
+            "banner": "act3.jpg"
+        },
+        {
+            "title": "3rd Orbit",
+            "description": "On the final orbit, Glenn joked that his spaceflight should qualify him for regular flight pay; despite trying a number of approaches with the automatic systems he had repeatedly had to come back to the manual fly-by-wire controls.",
+            "range": ["00:03:07:03", "00:04:32:39"],
+            "homepage": "phase4.jpg",
+            "banner": "act4.jpg"
+        },
+        {
+            "title": "Reentry",
+            "description": "Although Mercury Control had been concerned about the heat shield sensor, and it was decided to retain the retropack through reentry to give added assurance that the heat shield would stay in place, reentry was successful. It was later discovered that the reading had been a sensor error.",
+            "range": ["00:04:32:39", "00:05:05:11"],
+            "homepage": "phase5.jpg",
+            "banner": "act5.jpg"
+        }
+    ],
+    "key_scenes" : [
+    ],
+    "homepage_quotes": [
+        "00:00:40:28",
+        "00:01:14:19",
+        "00:00:00:13",
+        "00:00:53:01"
+    ],
+    "characters": {
+        "CC": {
+            "role": "astronaut",
+            "_comment": "not an astronaut, done for formatting reasons",
+            "name": "Capsule Communicator",
+            "short_name": "CAPCOM",
+            "bio": "In the Mercury missions, CAPCOM was the main person to communicate with the pilot. On Mercury-Atlas 6, there were CAPCOMs operating from different stations around the world, enabling Glenn to remain in contact with the Earth through his orbits.",
+            "photo": "capcom.jpg",
+            "photo_width": 190,
+            "photo_height": 205,
+            "avatar": "capcom_generic.jpg",
+            "locations": [
+                "notes for unpacking this into shifts later",
+                [ "cape", "Shepard" ],
+                [ "bermuda", "Grissom" ],
+                [ "backup pilot", "Carpenter", "ISTR that backup pilots were in the launch complex for MA launches, although this could be completely wrong" ],
+                [ "california (Point Arguello)", "Schirra" ],
+                [ "muchea", "Cooper" ],
+                "Deke was at the Cape with Shepard"
+            ]
+        },
+        "F": {
+            "role": "astronaut",
+            "_comment": "not an astronaut, done for formatting reasons",
+            "name": "Flight Director",
+            "short_name": "Flight",
+            "bio": "The flight director had overall operational responsibility for missions, leading their flight control team. They rarely talked directly to the capsule pilot, usually communicating through CAPCOM.",
+            "photo": "flight_directors.jpg",
+            "photo_width": 190,
+            "photo_height": 205,
+            "avatar": "F_48.png"
+        },
+        "P": {
+          "role": "astronaut",
+          "name": "John Herschel Glenn, Jr.",
+          "short_name": "John Glenn",
+          "bio": "A highly decorated USMC combat pilot with test flight experience including the first supersonic transcontinental flight, John Glenn was chosen to be the third American in space, and first to reach Earth orbit, from NASA's initial intake of seven astronauts in 1959. Following the assassination of President John F. Kennedy, he resigned from NASA to run for political office, returning to space age 77 onboard the Space Shuttle in 1998, becoming the oldest person to go to space.",
+          "photo": "john_glenn.png",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "john_glenn.jpg",
+          "quotable_log_line_id": "TEC:00:01:14:19"
+        },
+        "CT": {
+          "role": "other",
+          "name": "Communications Technician",
+          "short_name": "Comm Tech",
+          "avatar": "person.png"
+        },
+        "S": {
+          "role": "other",
+          "name": "Surgeon",
+          "short_name": "Flight Surgeon",
+          "avatar": "surgeon.png"
+        },
+        "R": {
+           "role": "other",
+           "name": "Recovery helicopter",
+           "short_name": "Recovery helicopter",
+           "avatar": "copters_48.png"
+         }
+    },
+    "shared_glossaries": ["space"],
+    "glossary": {
+        "ASCS": {
+            "summary": "Automatic Stabilization and Control System",
+            "type": "abbreviation"
+        },
+        "ATS": {
+            "summary": "Atlantic Ship",
+            "type": "abbreviation"
+        },
+        "FBW": {
+            "summary": "Fly By Wire",
+            "type": "abbreviation"
+        }, 
+        "MP": {
+            "summary": "Manual Proportional",
+            "type": "abbreviation"
+        }, 
+        "RSCS": {
+            "summary": "Rate Stabilization and Control System",
+            "type": "abbreviation"
+        }, 
+        "IOS": {
+            "summary": "Indian Ocean Ship",
+            "type": "abbreviation"
+        },
+        "CYI": {
+            "summary": "Canary Islands",
+            "type": "abbreviation"
+        },
+        "MCC": {
+            "summary": "Mercury Control Center",
+            "type": "abbreviation"
+        }
+    }
+}
